@@ -29,6 +29,12 @@ public class EjemploGraficosActivity extends AppCompatActivity {
             pincel.setStyle(Paint.Style.STROKE);
             canvas.drawCircle(150,150,100,pincel);
 
+            Paint pincel2 = new Paint();
+            pincel2.setColor(Color.BLACK);
+            pincel2.setStrokeWidth(8);
+            pincel2.setStyle(Paint.Style.FILL_AND_STROKE);
+            canvas.drawCircle(300,300,100,pincel2);
+
         }
     }
 }
